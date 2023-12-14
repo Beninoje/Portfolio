@@ -411,14 +411,14 @@ body.dark-theme{
     left:-50px;
     top:20px;
     bottom:0;
-    margin: auto 0;
+    margin: auto 0 !important;
     display: grid;
     row-gap:20px;
 }
 .home_social .home_social-link{
     color:#f4f4f4;
     background-color:rgb(156, 156, 156);
-    padding:8px 10px ;
+    padding:8px 10px !important;
     display: grid;
     place-items:center;
     transition: all 0.4s ease;
