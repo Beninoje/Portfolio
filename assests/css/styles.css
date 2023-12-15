@@ -1138,7 +1138,20 @@ body.dark-theme{
 }
 @media(max-height: 602px){
     .nav_list{
-        padding-top:20px;
+        padding-top:0px !important;
+        line-height: 3em !important;;
+    } 
+    .nav_name{
+        padding:20px 0px;
+        margin:20px auto 0px;
+    }
+    .nav_menu{
+        padding:30px !important;
+    }
+}
+@media(max-height: 760px){
+    .nav_list{
+        padding-top:30px;
         line-height: 3.2em;;
     } 
     .nav_name{
@@ -1146,7 +1159,7 @@ body.dark-theme{
         margin:20px auto 20px;
     }
     .nav_menu{
-        padding:30px !important;
+        padding:50px;
     }
 }
 @media (max-width:340px){
@@ -1174,6 +1187,16 @@ body.dark-theme{
         transform: translateX(0);
     }
 }
+@media (max-width:280px){
+    .nav_name{
+        padding: 0px !important;;
+        margin:40px auto 10px !important;
+    }
+    .nav_menu{
+        padding: 70px 20px 20px 20px !important;
+        
+    }
+}
 @media (max-width:375px){
     .nav_menu{
         padding: 70px;
@@ -1182,9 +1205,9 @@ body.dark-theme{
     .nav_name{
         padding:20px 0px;
     }
-    .nav_list{
+    /* .nav_list{
         margin-top:-40px;
-    }
+    } */
 }
 @media(max-width:470px){
     .about_buttons{
