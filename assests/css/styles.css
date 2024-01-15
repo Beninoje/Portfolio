@@ -1151,7 +1151,7 @@ body.dark-theme{
 }
 @media(max-height: 760px){
     .nav_list{
-        padding-top:30px;
+        /* padding-top:30px; */
         line-height: 3.2em;;
     } 
     .nav_name{
