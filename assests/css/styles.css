@@ -718,7 +718,7 @@ body.dark-theme{
 }
 /* SKILLS */
 .skills{
-
+    padding-top:50px;
 }
 .skills_container{
     display: flex;
