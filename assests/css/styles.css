@@ -761,8 +761,6 @@ body.dark-theme{
     column-gap: 20px;;
 }
 .skill{
-    /* width:200px;
-    height:150px; */
     flex-basis: 33.3%;
     height:auto;
     padding:20px;
@@ -795,10 +793,21 @@ body.dark-theme{
 }
 
 .skill i{
-    font-size: 60px;
+    font-size: 80px;
+}
+.fa-html5{
+    color:#fc480b;
+}
+.fa-square-js{
+   color:#f0dc4e; 
+}
+.fa-react{
+    color:#61dbfb;
+}.fa-php{
+    color:#7277ad;
 }
 .skill img{
-    width: 60px;
+    width: 60px !important;
     padding-bottom:15px;
 }
 @media(max-width: 1470px){
